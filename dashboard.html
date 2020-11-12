@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukan Instagram - Dashboard Feed</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/dashboard.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="/static/images/profile.jpg" alt="">
+                    </div>
+                    <div class="profile-user-settings">
+                        <h1 class="profile-user-name" id="emailid">sapasaya_</h1>
+                        <button class="btn profile-sign-out-btn">Sign Out</button>
+                        <button class="btn profile-settings-btn" aria-label="profile settings">
+                            <i class="fas fa-cog" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="profile-stats">
+                        <ul>
+                            <li><span class="profile-stat-count">666</span> posts</li>
+                            <li><span class="profile-stat-count">777</span> followers</li>
+                            <li><span class="profile-stat-count">314</span> following</li>
+                        </ul>
+                    </div>
+                    <div class="profile-bio">
+                        <p><span class="profile-real-name" id="nama-lengkap">Siapa saya</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p><span class="profile-website"><small><a href="#" id="alamat-website">http://linktr.ee/saktibuana</a></small></span></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="gallery">
+
+                </div>
+                <div class="loader"></div>
+            </div>
+        </main>
+
+    </div>
+
+    <script type="application/javascript" src="https://apis.google.com/js/api:client.js"></script>
+    <script type="application/javascript" src="static/js/dashboard.js"></script>
+</body>
+</html>
